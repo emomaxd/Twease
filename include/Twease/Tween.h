@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Ease {
+namespace Twease {
 
     template<typename T>
     class Tween {

@@ -26,7 +26,7 @@ int main() {
     double deltaTime = 0.016; // 60 FPS
 
     
-    auto anim = Animation<double>::animate(0.0, 100.0).during(2.0).easing(Ease::cubicIn);
+    auto anim = Twease::Animation<double>::animate(0.0, 100.0).during(2.0).easing(Twease::cubicIn);
 
     while (!anim.isCompleted()) {
         anim.update(deltaTime);
@@ -46,7 +46,7 @@ Tweening example:
 
 int main() {
 
-    auto helloworld = Ease::Tween<char>({ 'h', 'e', 'l', 'l', 'o' })
+    auto helloworld = Twease::Tween<char>({ 'h', 'e', 'l', 'l', 'o' })
     .to({ 'w', 'o', 'r', 'l', 'd' })
     .during(50);
 
