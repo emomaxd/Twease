@@ -5,6 +5,8 @@ Overview
 --------
 Twease is a header only C++ library designed to provide utilities for animation, tweening, and easing functions. It facilitates smooth transitions between values and can be integrated into various applications requiring dynamic value changes over time.
 
+To see easing functions as visually check [Twease-Visualizer](https://github.com/EmomaxD/TweaseVisualizer) out!
+
 Features
 --------
 1. **Tweening**: Interpolate between sequences of values over a specified duration.
